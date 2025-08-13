@@ -124,26 +124,8 @@ adapter_key = exchange_system.create_adapter(
 exchange_info = exchange_system.exchange_adapters(adapter1_key, adapter2_key)
 ```
 
-## 🖥️ **Hardware Requirements**
 
-### Minimum (CPU Only)
-- **CPU**: Modern multi-core processor
-- **RAM**: 16GB (BLIP-2 models are large)
-- **Storage**: 15GB+ free space for models
-
-### Recommended (GPU)
-- **GPU**: NVIDIA GPU with 12GB+ VRAM (RTX 3080+)
-- **RAM**: 32GB+
-- **CUDA**: Version 11.8+
-- **Storage**: 20GB+ free space
-
-### Model Size Guide
-- **BLIP-2 OPT-2.7B**: ~5GB
-- **BLIP-2 FLAN-T5-XL**: ~8GB  
-- **InstructBLIP-Vicuna-7B**: ~13GB
-- **ViLT**: ~400MB (lightweight option)
-
-## 🛠️ **Troubleshooting**
+##  **Troubleshooting**
 
 ### Common Issues
 
@@ -203,9 +185,6 @@ Each script includes comprehensive examples and demonstrations. Run them individ
 
 This is a focused demonstration of BLIP-2 and open-source vision-language models with LoRA adaptation. Feel free to extend the scripts for your specific use cases.
 
-## 📄 **License**
-
-MIT License - See LICENSE file for details.
 
 ## 🔗 **References**
 
@@ -213,3 +192,4 @@ MIT License - See LICENSE file for details.
 - [LoRA Paper](https://arxiv.org/abs/2106.09685)
 - [Salesforce BLIP-2 Models](https://huggingface.co/Salesforce)
 - [PEFT Library](https://github.com/huggingface/peft)
+
